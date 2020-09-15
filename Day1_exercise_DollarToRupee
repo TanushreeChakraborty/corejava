@@ -1,0 +1,9 @@
+package com.exercise;
+
+public class DollarToRupee{
+
+public double toRupee(double dollar){
+double rupee= 73.6*dollar;
+}
+
+}
