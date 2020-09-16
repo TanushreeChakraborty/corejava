@@ -1,0 +1,8 @@
+package com.exercise;
+
+public class Main {
+
+public static void main(String args[]){
+DollarToRupee Obj= new DollarToRupee();
+System.out.println(Obj.toRupee(5));
+}
