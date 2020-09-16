@@ -1,0 +1,27 @@
+package com.training;
+
+public class BloodDonor {
+	
+	private int age;
+	private String bloodGr;
+	public BloodDonor(int age, String bloodGr) {
+		super();
+		this.age = age;
+		this.bloodGr = bloodGr;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getBloodGr() {
+		return bloodGr;
+	}
+	public void setBloodGr(String bloodGr) {
+		this.bloodGr = bloodGr;
+	}
+	
+	
+
+}
