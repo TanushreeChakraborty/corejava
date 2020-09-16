@@ -1,0 +1,14 @@
+package com.training;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BloodDonor obj1= new BloodDonor(23, "A+");
+		obj1.setAge(23);
+		System.out.println(obj1.getAge());
+		obj1.setBloodGr("O+");
+		System.out.println(obj1.getBloodGr());
+	}
+
+}
